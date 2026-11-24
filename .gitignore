@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Logs and generated caches
+*.log
+*.log.*
+/logs/
+/cache/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local experiments and archives
+/notebooks/
+/test_scripts/
+/code_supplementary/
+/env/
+
+# Publish only baseline frame-selection scripts
+/baselines/*
+!/baselines/frame_select_aks.py
+!/baselines/frame_select_bolt.py
+!/baselines/frame_select_focus.py
