@@ -66,9 +66,9 @@ Outputs: `logs/{dataset}/{RUN_ID}/`.
 | Variable | Default | Meaning |
 | --- | --- | --- |
 | `FRAME_SCHEDULE` | `[4,8,16,32]` | Frame budget per round |
-| `EARLY_EXIT` | `False` | Enable online early exit; `False` runs all rounds |
+| `EARLY_EXIT` | `False` | Enable online early exit; `False` runs all rounds with per-round logs (recommended) |
 | `ENTROPY_THRESHOLD_START` / `ENTROPY_THRESHOLD_STEP` | `0.1` / `0.2` | Initial early-exit threshold and increment per round |
-| `ENCODER_MODEL_NAME` | `openai/clip-vit-large-patch14` | Feature encoder |
+| `ENCODER_MODEL_NAME` | `openai/clip-vit-large-patch14` | Feature encoder model |
 | `LIMIT` | Unset | Evaluation sample limit |
 
 `MODEL_EXTRA_ARGS` accepts additional comma-separated model arguments.
